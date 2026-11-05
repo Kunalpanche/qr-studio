@@ -15,7 +15,7 @@ Vite proxies are unnecessary in production: the app calls `/api/generate`, which
 
 ## Deploy
 
-Import this repository into Vercel. The included `vercel.json` builds the Vite app and deploys `api/index.py` as a Python serverless function. Uploaded logos only travel in the generation request and are never persisted.
+Import this repository into Vercel. The included `vercel.json` builds the Vite app and deploys `api/index.py` as a Python serverless function. The included `.python-version` pins Python 3.13 for compatible FastAPI/Pydantic wheels. Uploaded logos only travel in the generation request and are never persisted.
 
 ## Test checklist
 
